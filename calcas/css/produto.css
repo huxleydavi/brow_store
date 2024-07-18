@@ -1,0 +1,162 @@
+/**/
+
+.loc{
+	padding-top: 50px;
+}
+
+.loc spam{
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.loc #aum{
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.loc a{
+	color: black;
+	font-size: 28px;
+	font-weight: 800;
+}
+
+/**/
+
+.produtos-img{
+	width: 190px;
+	height: 190px;
+}
+
+/**/
+
+.prod{
+	margin: 100px 0;
+}
+
+.prod-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.prod-img{
+	border: 1px solid gray;
+}
+
+.prod-info{
+	text-align: left;
+	margin-left: 80px;
+}
+
+.prod-info > p{
+	font-weight: 100;
+	font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+.prod-info > h5{
+	font-weight: 700;
+	font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.info-price{
+	display: flex;
+    margin-bottom: 5px;
+}
+
+.info-price h4{
+	font-weight: 700;
+	font-size: 2.2rem;
+}
+
+.info-price p{
+	display: inline;
+	width: 45px;
+	padding: 12px 10px 10px 8px;
+	height: 45px;
+	background: gray;
+	border-radius: 50%;
+	font-weight: 900;
+	margin-left: 5px;
+}
+
+.prod-info > spam{
+	display: inline-block;
+	font-weight: 700;
+	font-size: 1.2rem;
+	margin-bottom: 5px;
+}
+
+.prod-info > spam > y{
+	text-decoration-line: line-through;
+}
+
+.prod-info > spam > x{
+	font-weight: 200;
+}
+
+.bt-price{
+	display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    border-radius: 30px;
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.bt-price-um{
+	float: left;
+	margin-right: 20px;
+}
+	
+.bt-price-dois{
+	float: right
+	margin-left: 20px
+}
+
+.bt-price-um > p, .bt-price-dois > p{
+	font-weight: 200;
+	text-align: center;
+	font-size: 1rem;
+}
+
+.bt-price-um > h3, .bt-price-dois > h3{
+	font-weight: 800;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.prod-info > h6{
+	font-weight: 900;
+	font-size: 1.5rem;
+	margin-bottom: 5px;
+}
+
+.prod-info > h7{
+	font-weight: 100;
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+
+.prod-info > button{
+	background: gray;
+    border-radius: 30px;
+    width: 80%;
+    padding: 10px;
+    margin-top: 15px;
+    border: 0;
+}
+
+.prod-info > button > a{
+	color: black;
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 1.8rem;
+	padding: 2px 30px;
+}
